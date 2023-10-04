@@ -1,65 +1,48 @@
-# angular-storybook-boilerplate-snippet README
+# Angular Storybook Boilerplate Snippet
 
-This is the README for your extension "angular-storybook-boilerplate-snippet". After writing up a brief description, we recommend including the following sections.
+## Introduction
 
-## Features
+The Angular Storybook Boilerplate Snippet extension aims to streamline the process of creating Storybook stories for Angular components by generating the necessary boilerplate code. This saves developers valuable time during the development process.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Installation
 
-For example if there is an image subfolder under your extension project workspace:
+To install this extension, follow these steps:
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Launch Visual Studio Code.
+2. Open the Command Palette using `Ctrl + Shift + P` (Windows/Linux) or `Cmd + Shift + P` (Mac).
+3. Type "Extensions" in the Command Palette search bar.
+4. Select "Extensions: Install Extensions" from the dropdown.
+5. Search for "Angular Storybook Boilerplate Snippet" and click the "Install" button.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+This extension provides a single snippet that generates the required boilerplate code for creating a Storybook story for an Angular component. To use it:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Open a file for your Angular component.
+2. Trigger the snippet by typing `sbac`.
+3. You'll have the option to enter your component's name (assuming it resides in the same folder as your story).
+4. Press `TAB` to move to the story title input.
 
-## Extension Settings
+![Extension Demo](https://github.com/Maminasouleymane/angular-storybook-boilerplate-snippet/blob/main/demo.gif?raw=true)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+### Snippet Trigger
 
-For example:
+| Trigger | Content                      |
+| ------: | ---------------------------- |
+|  `sbac` | Template for Storybook Story |
 
-This extension contributes the following settings:
+## Compatibility
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension is designed to work with Storybook version 7.\*. Please note that syntax may differ for older versions.
 
-## Known Issues
+## Contributing
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Contributions to this extension are welcome! If you'd like to report issues, suggest improvements, or contribute code, please visit the [GitHub repository](https://github.com/Maminasouleymane/angular-storybook-boilerplate-snippet) for more information.
 
-## Release Notes
+## License
 
-Users appreciate release notes as you update your extension.
+This extension is licensed under the [MIT License](LICENSE).
 
-### 1.0.0
+## Visual Studio Code
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+For more information about Visual Studio Code, visit the [official website](https://code.visualstudio.com/).

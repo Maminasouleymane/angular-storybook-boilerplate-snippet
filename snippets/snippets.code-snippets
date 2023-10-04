@@ -2,8 +2,8 @@
   "Angular StoryBook boilerplate code for a Component": {
     "prefix": "sbac",
     "body": [
-      "import { Meta, StoryObj } from '@storybook/angular'",
-      "import { $1 } from './$1'",
+      "import { Meta, StoryObj } from '@storybook/angular';",
+      "import { $1 } from './$1';",
       "",
       "const meta: Meta<$1> = {",
       "  title: '$2',",
