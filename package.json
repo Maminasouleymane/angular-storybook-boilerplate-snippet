@@ -1,11 +1,13 @@
 {
   "name": "angular-storybook-boilerplate-snippet",
   "displayName": "angular-storybook-boilerplate-snippet",
+  "publisher": "mamina",
   "description": "The aim of this extension is to help developers with the creation of storybook stories by generating the boilerplate code for them.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.82.0"
   },
+  "icon": "icon.png",
   "categories": [
     "Snippets"
   ],
